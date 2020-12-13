@@ -10,7 +10,7 @@ The project intends to create a general template for a personal portfolio that c
 
 "As a recruiter I need to find a (junior) developer with proven skills and experience in a fast way, who preferably lives where the company is located, has a work permit and is available to start immediately, in order for our developers to have adequate capacity."  
 
-**User stories**
+**User stories**  
 As a user, I want to navigate quickly with few button clicks.  
 As a user, I want to easily find the personal competencies and technical skills of a candidate.  
 As a user, I want to have access to the candidate's projects.  
@@ -26,7 +26,7 @@ As a user, I want to receive a clear error message when something goes wrong.
 * about page
 * contact me functionality
 
-**Technologies used**
+**Technologies used**  
 HTML5
 CSS3
 JavaScript ECMA6
