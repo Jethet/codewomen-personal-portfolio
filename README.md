@@ -26,11 +26,11 @@ As a user, I want to receive a clear error message when something goes wrong.
 * about page
 * contact me functionality
 
-**Technologies used**
-HTML5
-CSS3
-JavaScript ECMA6
-React
+**Technologies used**  
+HTML5  
+CSS3  
+JavaScript ECMA6  
+React  
 
 **Frontend routes**
 * `/homepage`
