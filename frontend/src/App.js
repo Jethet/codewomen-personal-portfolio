@@ -1,15 +1,22 @@
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-function App() {
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Home from './pages/Home';
+
+import './App.css';
+
+const App = () =>{
   return (
     <div className="App">
-      <header className="header">
-        <h2>This is the personal portfolio of a CodeWoman</h2>
-
-        <img src="./images/codewomanDark.png" className="woman-icon" alt="Woman programmer" />
-      </header>
+      <Router>      
+          <Header />
+          <Navigation />
+          <Route path="/" exact component={Home} />                          
+      </Router>
     </div>
-  );
+  )
 }
 
 export default App;

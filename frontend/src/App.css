@@ -1,8 +1,82 @@
-.App {
-  margin: 0 auto;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/*resets*/
+*, *:before, *:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+} 
+
+a, a:hover {
+  color: inherit;
+  text-decoration: inherit;
 }
 
+li {
+  list-style-type: none;
+}
+button {
+  outline:none;
+}
+button:active, button:focus{
+  outline:none;
+}
+html {
+  font-size: 16px;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  max-width: 1080px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.logo{
+  align-self: center;
+  justify-self: center;
+  margin: 3% auto;
+}
+.navigationMenu {
+  display: flex;  
+  justify-content: center;
+  margin-top:3%;   
+  font-size: 1em;
+  color: #6c6c6c;
+}
+.navigationMenu li:not(:last-child){
+  margin-right: 5%;
+}
+.navigationMenu a:hover {
+  color: #5f9ea0;
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  margin:15% auto;
+}
+.App {
+  margin:0 2%;
+}
 .woman-icon {
-  width: 200px;
+  width: 20%;
 }
