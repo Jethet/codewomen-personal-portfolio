@@ -43,7 +43,6 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 1;
   font-weight: 400;
-  max-width: 1080px;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -55,19 +54,19 @@ body {
 }
 .navigationMenu {
   display: flex;  
-  justify-content: center;
-  margin-top:3%;   
+  justify-content: center;  
   font-size: 1em;
   color: #6c6c6c;
 }
 .navigationMenu li:not(:last-child){
-  margin-right: 5%;
+  margin-right: 10%;
 }
 .navigationMenu a:hover {
   color: #5f9ea0;
 }
 .headerContainer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
