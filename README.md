@@ -1,5 +1,7 @@
 # codewomen-personal-portfolio
 
+![MC logo](https://github.com/Jethet/codewomen-personal-portfolio/blob/main/migracode-logo.jpg)
+
 **Description**  
 
 This portfolio contains the work of CodeWomen to build a personal portfolio. It is a collaborative project and it is work in progress. 
