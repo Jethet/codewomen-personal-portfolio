@@ -1,6 +1,7 @@
 # codewomen-personal-portfolio
 
-![MC logo](https://github.com/Jethet/codewomen-personal-portfolio/blob/main/migracode-logo.jpg) ![MC logo](https://github.com/Jethet/codewomen-personal-portfolio/blob/main/migracode-logo.jpg)
+![MC logo](https://github.com/Jethet/codewomen-personal-portfolio/blob/main/migracode-logo.jpg) 
+![MC logo](https://github.com/Jethet/codewomen-personal-portfolio/blob/main/migracode-logo.jpg)
 
 **Description**  
 
